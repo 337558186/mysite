@@ -43,9 +43,9 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 //用来自定义API的标题
-                .title("SpringBoot项目SwaggerAPIAPI标题测试")
+                .title("myite")
                 //用来描述整体的API
-                .description("SpringBoot项目SwaggerAPI描述测试")
+                .description("接口文档")
                 //创建人信息
                 .contact(new Contact("测试员:magician","http://http://localhost:8081/swagger-ui.html","xxxxxxxx@163.com"))
                 //用于定义服务的域名

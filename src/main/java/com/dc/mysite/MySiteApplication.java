@@ -16,6 +16,13 @@ public class MySiteApplication {
 
         log.info("DemoApplication start!!!");
 
+        //        TODO 启动打开默认浏览器访问（添加以下代码）
+        try {
+            Runtime.getRuntime().exec("cmd /c start http://localhost:8081/springboot/swagger-ui.html");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
     }
 
 }
